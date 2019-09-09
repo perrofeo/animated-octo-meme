@@ -35,10 +35,11 @@
 
                 {% set include_dict = {'product_page': page} %}
                 {% include "buy_button.html" %}
+
+                <div class="product-content">
+                    {{content}}
+                  </div><!-- .product-content -->
             </div>
-            <div class="product-content">
-                {{content}}
-              </div><!-- .product-content -->
         </section>
 
         <section class="content__row">
