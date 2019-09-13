@@ -383,7 +383,7 @@ models:
         name: category
         label: Category
         # To keep up to date with categories created in content/category
-        options: [summer, europe, bigplants, cactuses]
+        options: [summer, europe, bigplants, cactuses, almendra]
       - type: boolean
         name: featured
         label: Featured
